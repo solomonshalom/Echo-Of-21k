@@ -5,7 +5,7 @@ import logo from './img/logo.svg';
 
 const Logo = () => (
   <>
-    <a href="#" className="logo">
+    <a href="/" className="logo">
       <img src={logo} alt="logo" />
       <h1>Echo Of 21K</h1>
     </a>
