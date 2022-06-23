@@ -48,7 +48,14 @@ export default () => {
 
   return (
     <PageLayout title="Episodes" page>
-      <Episodes title="All Podcast Episodes" episodes={episodes} />
+      <div style={{
+        paddingLeft: "20%",
+        paddingRight: "20%"
+      }}>
+        <iframe src="https://open.spotify.com/embed/episode/3yAkOCMQ6UAU04we5HheHK?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe src="https://open.spotify.com/embed/episode/1PbC6iDiUlBHnPZBEZb64C?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe src="https://open.spotify.com/embed/episode/1fAWqhFTwM7v2L3ONAArgA?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+      </div>
     </PageLayout>
   );
 };
