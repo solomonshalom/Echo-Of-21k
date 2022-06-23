@@ -13,7 +13,6 @@ export default () => (
   <>
     <Header hero />
     <Episodes title="Latest Episodes" latest />
-    <Slider title="Blog Posts" />
     <Carousel />
     <Subscribe
       title="Directly Into Your Inbox Every Monday"
