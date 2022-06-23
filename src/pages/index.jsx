@@ -16,8 +16,8 @@ export default () => (
     <Slider title="Blog Posts" />
     <Carousel />
     <Subscribe
-      title="New Episode Every Week!"
-      subtitle="Loremipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed."
+      title="Directly Into Your Inbox Every Monday"
+      subtitle="Wanna know something exciting every monday? maybe how we do it or how you can!"
     />
     <Footer />
   </>

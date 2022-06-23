@@ -7,7 +7,7 @@ const Logo = () => (
   <>
     <a href="#" className="logo">
       <img src={logo} alt="logo" />
-      <h1>Gocast</h1>
+      <h1>Echo Of 21K</h1>
     </a>
   </>
 );

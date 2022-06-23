@@ -55,18 +55,12 @@ const Navigation = () => {
             <Link to="/episodes">Episodes</Link>
           </li>
           <li className="menu-item">
-            <Link to="/blog">Blog</Link>
-          </li>
-          <li className="menu-item">
-            <Link to="/">Pages</Link>
-          </li>
-          <li className="menu-item">
             <Link to="/contact">Contact</Link>
           </li>
         </ul>
         <div className="cta-top">
           <Button styling="primary" text="Subscribe" />
-          <Button styling="secondary" text={['Donate ', donate]} />
+          <Button styling="secondary" text="Support Us!" />
         </div>
       </nav>
     </>

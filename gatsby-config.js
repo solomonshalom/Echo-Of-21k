@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `GoCast`,
-    description: `Podcast design template Adobe XD -> HTML + CSS`,
-    author: `Blaž Mandl`,
+    title: `Echo Of 21K`,
+    description: `Official Website Of 21K`,
+    author: `Solomon Shalom Lijo`,
   },
   pathPrefix: "/gocast",
   plugins: [

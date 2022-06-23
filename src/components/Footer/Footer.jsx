@@ -20,22 +20,22 @@ const Footer = () => (
         <div className="branding">
           <Logo />
           <p>
-            Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-            invidunt.
+          For the Students. By the Students. Of the Students
+          It's a student-led podcast, conceptualized, coordinated, and conducted by the Students of 21K School.
           </p>
           Socials
           <div className="socials">
-            <a href="#">
+            <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiXppL-_KH3AhX4ZmwGHUOtD3oQFnoECA4QAQ&url=https%3A%2F%2Fwww.facebook.com%2F21Kschool%2F&usg=AOvVaw0HagzH4hT1CN9hM0oQP4PZ">
               <FontAwesomeIcon icon={faFacebookF} className="fa" />
             </a>
-            <a href="#">
-              <FontAwesomeIcon icon={faLinkedinIn} className="fa" />
-            </a>
-            <a href="#">
+            <a href="https://www.instagram.com/21kschool/?hl=en">
               <FontAwesomeIcon icon={faInstagram} className="fa" />
             </a>
-            <a href="#">
-              <FontAwesomeIcon icon={faSkype} className="fa" />
+            <a href="https://anchor.fm/the-echo-of-21k/episodes/Episode-3--Behind-The-Scenes-With-The-Principal-e1euoes">
+              <FontAwesomeIcon icon={faSpotify} className="fa" />
+            </a>
+            <a href="https://twitter.com/21Kschool">
+              <FontAwesomeIcon icon={faTwitter} className="fa" />
             </a>
           </div>
         </div>
@@ -43,16 +43,13 @@ const Footer = () => (
           Pages
           <ul>
             <li>
-              <a href="#">About</a>
+              <a href="/about">About</a>
             </li>
             <li>
-              <a href="#">Episode</a>
+              <a href="/episodes">Episode</a>
             </li>
             <li>
-              <a href="#">Blog</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
+              <a href="/contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -68,26 +65,13 @@ const Footer = () => (
             <li>
               <a href="#">Episode 3</a>
             </li>
-            <li>
-              <a href="#">Episode 4</a>
-            </li>
           </ul>
         </div>
         <div className="footer-column">
-          Listen My Podcasts Also In
+          Listen Our Podcasts In
           <ul>
             <li>
-              <a href="#">
-                <img alt="google" src={google} />
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                <img alt="apple" src={apple} />
-              </a>
-            </li>
-            <li>
-              <a href="#">
+              <a href="https://open.spotify.com/show/5Ef0nSedU4l2DoFeSYLtIp">
                 <img alt="spotify" src={spotify} />
               </a>
             </li>
@@ -95,7 +79,7 @@ const Footer = () => (
         </div>
       </div>
       <div className="footer-botom">
-        @2020 Themefisher All Rights Reserved | Design By : Themefisher.designer
+        @2020 Solomon Shalom Lijo All Rights Reserved | Design By : Solomon Lijo / Zaid Ajani
       </div>
     </section>
   </>
