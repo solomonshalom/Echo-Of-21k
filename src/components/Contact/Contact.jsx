@@ -38,7 +38,7 @@ const Contact = () => (
         id="message"
         cols="30"
         rows="5"
-        placeholder="Lorem Ipsum is simply dummy text of the printing and...……."
+        placeholder="Write something...."
       />
     </label>
 
