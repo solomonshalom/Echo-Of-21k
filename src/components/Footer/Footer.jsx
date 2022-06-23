@@ -2,7 +2,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faFacebookF, faInstagram, faLinkedinIn, faSkype,
+  faFacebookF, faInstagram, faLinkedinIn, faSpotify,
 } from '@fortawesome/free-brands-svg-icons';
 
 import Logo from '../Logo/Logo';
