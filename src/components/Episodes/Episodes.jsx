@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import Button from '../Button/Button';
 import Episode from './components/Episode/Episode';
+import { Link } from 'gatsby';
 
 import './episodes.scss';
 
@@ -79,22 +80,43 @@ const Episodes = ({ latest, title }) => {
     setHasMore(isMore);
   }, [episodes]);
 
-  return episodes.length ? (
+  // return episodes.length ? (
+  //   <section className="episodes-container">
+  //     <div className="top">
+  //       <h2 className={!latest ? 'single' : undefined}>{title}</h2>
+  //       {latest && (
+  //         <Button stylying="primary" text="View All" onClick={() => navigate('/episodes')} />
+  //       )}
+  //     </div>
+  //     {episodes}
+  //     {hasMore && (
+  //       <div className="more">
+  //         <Button styling="secondary" text="Show more episodes" onClick={handleLoadMore} />
+  //       </div>
+  //     )}
+  //   </section>
+  // ) : null;
+
+  return (
     <section className="episodes-container">
-      <div className="top">
-        <h2 className={!latest ? 'single' : undefined}>{title}</h2>
-        {latest && (
-          <Button stylying="primary" text="View All" onClick={() => navigate('/episodes')} />
-        )}
+      <h1>Episodes</h1>
+      <div style={{
+        // paddingLeft: "20%",
+        // paddingRight: "20%"
+      }}>
+        <iframe src="https://open.spotify.com/embed/episode/3yAkOCMQ6UAU04we5HheHK?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe src="https://open.spotify.com/embed/episode/1PbC6iDiUlBHnPZBEZb64C?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe src="https://open.spotify.com/embed/episode/1fAWqhFTwM7v2L3ONAArgA?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <div className="more" style={{
+          marginTop: '50px'
+        }}>
+          <Link to="/episodes">
+           <Button styling="secondary" text="Show more episodes" />
+          </Link>
       </div>
-      {episodes}
-      {hasMore && (
-        <div className="more">
-          <Button styling="secondary" text="Show more episodes" onClick={handleLoadMore} />
-        </div>
-      )}
+      </div>
     </section>
-  ) : null;
+  )
 };
 
 Episodes.propTypes = {

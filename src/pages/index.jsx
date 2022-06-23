@@ -12,7 +12,11 @@ import Footer from '../components/Footer/Footer';
 export default () => (
   <>
     <Header hero />
-    <Episodes title="Latest Episodes" latest />
+    <div style={{
+      marginTop: '150px'
+    }}>
+      <Episodes title="Latest Episodes" latest />
+    </div>
     <Carousel />
     <Subscribe
       title="Directly Into Your Inbox Every Monday"
