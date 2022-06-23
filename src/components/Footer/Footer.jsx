@@ -57,13 +57,13 @@ const Footer = () => (
           Recent Episodes
           <ul>
             <li>
-              <a href="#">Episode 1</a>
+              <a href="#">Episode 1 : Behind-The-Scenes With The Co-Founders</a>
             </li>
             <li>
-              <a href="#">Episode 2</a>
+              <a href="#">Episode 2 : Behind-The-Scenes With The Co-Founders</a>
             </li>
             <li>
-              <a href="#">Episode 3</a>
+              <a href="#">Episode 3 : Behind-The-Scenes With The Principal</a>
             </li>
           </ul>
         </div>
