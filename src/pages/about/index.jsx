@@ -9,7 +9,7 @@ import Subscribe from '../../components/Subscribe/Subscribe';
 import './about.scss';
 
 export default () => (
-  <PageLayout title="About Me" page>
+  <PageLayout title="About Us" page>
     <section className="about">
       <div className="about-text">
         <h2>Hello There! We Are The Echo Of 21K</h2>
