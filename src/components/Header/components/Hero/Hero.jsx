@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 
 import './hero.scss';
-import hero from './img/header-img.png';
+import hero from './img/header.png';
 import AudioPlayer from '../../../AudioPlayer/AudioPlayer';
 
 const Hero = () => {
@@ -41,7 +41,7 @@ const Hero = () => {
         </p>
         <AudioPlayer audio={allEpisodes[0].audio.publicURL} />
       </div>
-      <img alt="hero" src="#" className="big-image" />
+      <img alt="hero" src={hero} className="big-image" />
     </>
   );
 };
