@@ -55,7 +55,7 @@ export default () => {
         <iframe src="https://open.spotify.com/embed/episode/3yAkOCMQ6UAU04we5HheHK?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         <iframe src="https://open.spotify.com/embed/episode/1PbC6iDiUlBHnPZBEZb64C?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
         <iframe src="https://open.spotify.com/embed/episode/1fAWqhFTwM7v2L3ONAArgA?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/1hpzUx6YxXDvGkh7wXrC4Z?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+        <iframe src="https://open.spotify.com/embed/episode/1hpzUx6YxXDvGkh7wXrC4Z?utm_source=generator" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
       </div>
     </PageLayout>
   );
